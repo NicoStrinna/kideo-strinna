@@ -1,0 +1,46 @@
+@import "header";
+@import "footer";
+@import "../herramientas/listas";
+
+
+
+/* comienzo de seccion nosotros */
+.volver-inicio {
+    @extend %volver-inicio;
+}
+
+.nosotros {
+    width: 100%;
+    height: 330px;
+    color: rgb(34, 33, 61);
+    background: wheat;
+
+    .h3-nosotros {
+        font-size: nth($font-size, 6 );
+        font-family: sans-serif;
+        text-transform:capitalize;
+        color: $nombre-seccion; /*_colores*/
+        background-color: $bg-seccion;/*_colores*/
+        position: relative;
+    }
+    p {
+        font-family: sans-serif;
+        text-transform: none;
+        text-align: center;
+        
+        
+        color: rgb(43, 34, 28);
+        width: 35%;
+        height: auto;
+        margin: 2% 2% 2% 2%;
+        padding: 20px 5px; 
+        background:rgba(195, 219, 218, 0.4);
+        border-radius: 7px;
+        position: relative;
+    }
+    
+}
+
+
+
+/* Fin de nosotros */

@@ -1,0 +1,7 @@
+
+/*lo utilice como ejemplo en el header - fila 40*/
+@mixin varios-parametros($display, $justify, $position) {
+    display: $display;
+    justify-content: $justify;
+    position: $position;
+}

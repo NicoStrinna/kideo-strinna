@@ -1,0 +1,597 @@
+@charset "UTF-8";
+/*lo utilice como ejemplo en el header - fila 40*/
+/*anidamiento*/
+/*comienzo header*/
+header {
+  background-image: url(../imagenes/deportista-7.jpg);
+  height: 700px;
+  width: auto;
+  display: flex;
+}
+header h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  /*el valor rem se va a multiplicar por el valor del elemnto root(html 20px)*/
+  letter-spacing: 4px;
+  width: 215px;
+  height: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+}
+header h2 {
+  color: #3f3d3f;
+  font-size: 20px;
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+}
+header strong {
+  color: yellow;
+}
+header .nav-menu ul {
+  margin: 0 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  /*mixins*/
+  z-index: 10;
+}
+header .nav-menu ul li {
+  position: relative;
+  display: inline-block;
+  background-color: #31384A;
+  width: auto;
+  margin: 10px 5px;
+  border-radius: 7px;
+}
+header .nav-menu ul li:hover {
+  visibility: visible;
+  opacity: 1;
+}
+header .nav-menu ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: #afa5a5;
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  border-radius: 7px;
+  /*ampersand &*/
+}
+header .nav-menu ul li a:hover {
+  color: #f7a206;
+  transition: all 0.3s;
+}
+header .nav-menu ul li .submenu-reha {
+  position: absolute;
+  background: transparent;
+  padding: 0px;
+  width: auto;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 7px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+header .nav-menu .submenu-reha li a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  background-color: #31384A;
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  border-radius: 7px;
+}
+header .nav-menu .menu li:hover .submenu-reha {
+  /*desafio :hover*/
+  visibility: visible;
+  opacity: 1;
+}
+
+/*fin header*/
+/*lo utilice como ejemplo en el header - fila 40*/
+/*anidamiento*/
+/*comienzo header*/
+header {
+  background-image: url(../imagenes/deportista-7.jpg);
+  height: 700px;
+  width: auto;
+  display: flex;
+}
+header h1 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  /*el valor rem se va a multiplicar por el valor del elemnto root(html 20px)*/
+  letter-spacing: 4px;
+  width: 215px;
+  height: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+}
+header h2 {
+  color: #3f3d3f;
+  font-size: 20px;
+  margin-top: 15px;
+  display: inline-block;
+  font-family: "Heebo", sans-serif;
+}
+header strong {
+  color: yellow;
+}
+header .nav-menu ul {
+  margin: 0 10px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  /*mixins*/
+  z-index: 10;
+}
+header .nav-menu ul li {
+  position: relative;
+  display: inline-block;
+  background-color: #31384A;
+  width: auto;
+  margin: 10px 5px;
+  border-radius: 7px;
+}
+header .nav-menu ul li:hover {
+  visibility: visible;
+  opacity: 1;
+}
+header .nav-menu ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: #afa5a5;
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  border-radius: 7px;
+  /*ampersand &*/
+}
+header .nav-menu ul li a:hover {
+  color: #f7a206;
+  transition: all 0.3s;
+}
+header .nav-menu ul li .submenu-reha {
+  position: absolute;
+  background: transparent;
+  padding: 0px;
+  width: auto;
+  visibility: hidden;
+  opacity: 0;
+  border-radius: 7px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+header .nav-menu .submenu-reha li a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+  background-color: #31384A;
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  border-radius: 7px;
+}
+header .nav-menu .menu li:hover .submenu-reha {
+  /*desafio :hover*/
+  visibility: visible;
+  opacity: 1;
+}
+
+/*fin header*/
+/* footer */
+footer {
+  background-color: #28273f;
+  width: 100%;
+  display: flex;
+}
+footer .footer {
+  color: thistle;
+  font-size: 15px;
+  width: 100%;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  /*flexbox*/
+  justify-content: center;
+}
+footer h3 {
+  width: 300px;
+  color: white;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+}
+footer .footer-contactos {
+  max-width: 300px;
+  list-style: none;
+  margin: 15px;
+}
+footer .footer-contactos p {
+  font-style: italic;
+  font-weight: 600;
+  color: #9494c4;
+}
+footer .footer-redessociales {
+  font-size: 15px;
+  list-style: none;
+  margin: 2px;
+  max-width: 300px;
+  text-align: right;
+}
+footer .mapa-footer {
+  margin: 0px 15px;
+}
+
+/* fin footer */
+/* comienzo de seccion nosotros */
+.nosotros {
+  width: 100%;
+  height: 330px;
+  color: #22213d;
+  background: wheat;
+}
+.nosotros .h3-nosotros {
+  font-size: 60px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #d35353;
+  /*_colores*/
+  background-color: #383737;
+  /*_colores*/
+  position: relative;
+}
+.nosotros p {
+  font-family: sans-serif;
+  text-transform: none;
+  text-align: center;
+  color: #2b221c;
+  width: 35%;
+  height: auto;
+  margin: 2% 2% 2% 2%;
+  padding: 20px 5px;
+  background: rgba(195, 219, 218, 0.4);
+  border-radius: 7px;
+  position: relative;
+}
+
+/* Fin de nosotros */
+/*rehabilitacion*/
+.rehabilitacion {
+  background: #383737;
+}
+
+.h2-rehabilitacion {
+  color: white;
+  font-family: sans-serif;
+  background: #383737;
+  width: 100%;
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 30px;
+  /*listas $font-size*/
+  flex-direction: column;
+  /*flexbox*/
+}
+
+.lista-rehab {
+  color: sandybrown;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  margin: 0;
+  justify-content: space-between;
+  grid-auto-flow: row;
+  border-radius: 7px;
+  padding: 2px;
+  list-style: none;
+  grid-template-areas: "muscular img-muscular  articular img-articular" "muscular img-muscular  articular img-articular" "postural img-postural  postcovid img-postcovid" "postural img-postural  postcovid img-postcovid";
+}
+.lista-rehab .parrafo-rehab {
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: fit-content;
+  margin: auto auto;
+  border-radius: 7px;
+  justify-content: center;
+  align-content: center;
+  padding: 15px;
+  color: salmon;
+}
+.lista-rehab .img-rehab {
+  width: 100%;
+  height: 80%;
+  margin: auto auto;
+  border-radius: 7px;
+}
+.lista-rehab .muscular {
+  grid-area: muscular;
+}
+.lista-rehab .img-muscular {
+  grid-area: img-muscular;
+}
+.lista-rehab .articular {
+  grid-area: articular;
+}
+.lista-rehab .img-articular {
+  grid-area: img-articular;
+}
+.lista-rehab .postural {
+  grid-area: postural;
+}
+.lista-rehab .img-postural {
+  grid-area: img-postural;
+}
+.lista-rehab .postcovid {
+  grid-area: postcovid;
+}
+.lista-rehab .img-postcovid {
+  grid-area: img-postcovid;
+}
+
+/* fin de rehabilitacion */
+/* Comienzo de seccion tips */
+.tips {
+  color: #b22259;
+  font-size: 1rem;
+  text-align: left;
+  font-style: inherit;
+  font-family: "Mukta", sans-serif;
+  background-image: url(../imagenes/deportita-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*extends*/
+  height: 400px;
+}
+.tips .h3-tips {
+  writing-mode: vertical-rl;
+  color: gold;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 20px;
+}
+.tips .h3-tips:hover {
+  transform: rotate(-90deg) scale(2) translate(100px, 100px);
+  /*transform/animacion*/
+  transition: all 2s;
+  cursor: default;
+  color: #9e2c2c;
+}
+.tips .tips-lista {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+.tips .tips-lista .tips-secciones {
+  color: #d35353;
+  /*colores*/
+  font-size: 20px;
+  text-align: left;
+  font-style: inherit;
+  margin: 2px;
+  background: #146830;
+  border-radius: 7px;
+  height: 26px;
+  /*extends*/
+}
+.tips .tips-lista .tips-secciones .hidratacion {
+  background-image: url(../imagenes/hidratación1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: #474f4d;
+  width: 35%;
+  margin: auto 2px auto 2px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.tips .tips-lista .tips-secciones .hidratacion:hover {
+  /*desafio transform/transition*/
+  transform: scale(2) translateX(100px);
+  transition: all 2s;
+  color: #e7ac08;
+}
+.tips .tips-lista .tips-secciones .alimentacion {
+  background-image: url(../imagenes/alimentacion1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: #719b7f;
+  width: 35%;
+  margin: auto 2px auto 2px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.tips .tips-lista .tips-secciones .alimentacionhover {
+  /*desafio transform/transition*/
+  transform: scale(2) rotate(360deg);
+  transition: all 2s;
+  color: #07137e;
+}
+.tips .tips-lista .tips-secciones .cuidados {
+  background-image: url(../imagenes/vendajes1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: none;
+  color: #3b8566;
+  width: 35%;
+  margin: auto 2px auto 2px;
+  padding: 20px;
+  border-radius: 7px;
+}
+.tips .tips-lista .tips-secciones .cuidados:hover {
+  /*desafio transform/transition*/
+  transform: scale(2) rotate(360deg) translateX(-100px);
+  transition: all 2s;
+  color: #fa8909;
+}
+
+/*fin de tips*/
+.img-tips {
+  width: 20%;
+  height: 20%;
+}
+
+/* Fin de seccion tips */
+/*seccion contacto*/
+.volver-inicio {
+  /*extend*/
+}
+
+.container-contacto {
+  background: #383737;
+  /*colores*/
+  /*extend*/
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.formulario {
+  background-image: url(../imagenes/deportista-6.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.formulario .h2-contacto {
+  color: white;
+  /*colores*/
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  /*listas-$font-size*/
+  margin-bottom: 10px;
+  display: flex;
+  /*flexbox*/
+}
+.formulario form {
+  width: 450px;
+  margin: auto;
+  background: rgba 0, 0, 0, 0.4;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.formulario input, .formulario textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  /*listas-$font-size*/
+  border: none;
+}
+.formulario textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+.formulario #botton {
+  background: #31384A;
+  color: white;
+  /*colores*/
+  padding: 20px;
+}
+.formulario #botton:hover {
+  cursor: pointer;
+  color: #db9410;
+  transition: all 0.3s;
+}
+
+/*fin seccion contacto*/
+/* footer */
+footer {
+  background-color: #28273f;
+  width: 100%;
+  display: flex;
+}
+footer .footer {
+  color: thistle;
+  font-size: 15px;
+  width: 100%;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: flex;
+  /*flexbox*/
+  justify-content: center;
+}
+footer h3 {
+  width: 300px;
+  color: white;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+}
+footer .footer-contactos {
+  max-width: 300px;
+  list-style: none;
+  margin: 15px;
+}
+footer .footer-contactos p {
+  font-style: italic;
+  font-weight: 600;
+  color: #9494c4;
+}
+footer .footer-redessociales {
+  font-size: 15px;
+  list-style: none;
+  margin: 2px;
+  max-width: 300px;
+  text-align: right;
+}
+footer .mapa-footer {
+  margin: 0px 15px;
+}
+
+/* fin footer */
+main {
+  width: auto;
+  height: 250px;
+  background: #383737;
+  /*colores*/
+}
+main .main-index {
+  font-family: sans-serif;
+  color: #d35353;
+  /*colores*/
+  padding: 15px;
+}
+main .p-main {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: auto auto;
+  color: white;
+  /*colores*/
+  text-align: center;
+}
+
+.volver-inicio {
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+  background: #31384A;
+  color: #fff;
+  padding: 5px;
+  border-radius: 7px;
+  z-index: 100;
+  position: fixed;
+  margin-top: 100px;
+}
+
+header .nav-menu ul li .submenu-reha, .h2-rehabilitacion, .tips, .tips .tips-lista .tips-secciones, .container-contacto {
+  display: flex;
+  justify-content: center;
+}
+
+/*lo utilice como ejemplo en el header - fila 40*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

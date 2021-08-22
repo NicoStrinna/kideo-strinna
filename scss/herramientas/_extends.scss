@@ -1,0 +1,19 @@
+
+
+%volver-inicio{
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    background: #31384A;
+    color:  #fff;
+    padding: 5px;
+    border-radius: 7px;
+    z-index: 100; 
+    position: fixed;
+    margin-top: 100px;
+}
+
+%display-flex{
+    display: flex;
+    justify-content: center;
+}
+

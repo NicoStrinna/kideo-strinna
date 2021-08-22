@@ -1,0 +1,66 @@
+@import "../herramientas/listas";
+
+/*seccion contacto*/
+.volver-inicio {
+    @extend %volver-inicio; /*extend*/
+}
+
+.container-contacto {
+    background: $bg-seccion; /*colores*/ 
+    @extend %display-flex;  /*extend*/
+    flex-direction: column;
+    font-family: monospace; 
+}
+
+.formulario {
+    background-image: url(../imagenes/deportista-6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    .h2-contacto {
+    color: $color; /*colores*/
+    text-align: center;
+    margin: 0;
+    font-size: nth($font-size, 4); /*listas-$font-size*/
+    margin-bottom: 10px;
+    display: flex;                          /*flexbox*/
+    }
+
+    form {
+    width: 450px;
+    margin: auto;
+    background: rgba (0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+    }
+
+    input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: nth($font-size, 1);/*listas-$font-size*/
+    border: none;
+    }
+
+    textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    }
+
+    #botton {
+    background: #31384A;
+    color:  $color;/*colores*/
+    padding: 20px;
+        &:hover {
+         cursor: pointer;
+          color: #db9410;
+         transition: all .3s;
+        }
+    }
+}
+/*fin seccion contacto*/
